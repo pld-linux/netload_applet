@@ -31,7 +31,7 @@ To ma³y monitor obci±¿enia sieci jako aplet do panelu GNOME.
 %build
 rm -f missing
 gettextize --copy --force
-libtoolize --copy --force
+%{__libtoolize}
 aclocal -I macros
 %{__autoconf}
 %{__automake}
