@@ -30,7 +30,7 @@ To ma³y monitor obci±¿enia sieci jako aplet do panelu GNOME.
 
 %build
 rm -f missing
-gettextize --copy --force
+%{__gettextize}
 %{__libtoolize}
 aclocal -I macros
 %{__autoconf}
