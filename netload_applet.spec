@@ -5,8 +5,6 @@ Version:	0.3.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
-Group(de):	X11/Applikationen/Netzwerkwesen
-Group(pl):	X11/Aplikacje/Sieciowe
 Vendor:		Jan Oberländer <mindriot@gmx.net>
 Source0:	http://prdownloads.sourceforge.net/netload-applet/%{name}-%{version}.tar.gz
 URL:		http://netload-applet.sourceforge.net/
