@@ -15,7 +15,7 @@ BuildRequires:	gettext-devel
 BuildRequires:	gnome-core-devel >= 1.2.0
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRequires:	libtool
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sysconfdir	/etc/X11/GNOME
 
