@@ -8,12 +8,14 @@ Group:		X11/Applications/Networking
 Group(de):	X11/Applikationen/Netzwerkwesen
 Group(pl):	X11/Aplikacje/Sieciowe
 Vendor:		Jan Oberländer <mindriot@gmx.net>
-Source0:	http://www.stud.uni-karlsruhe.de/~uslk/%{name}-%{version}.tar.gz
+Source0:	http://prdownloads.sourceforge.net/netload-applet/%{name}-%{version}.tar.gz
 URL:		http://netload-applet.sourceforge.net/
-Requires:	gtk+ >= 1.2.0, gnome-core >= 1.2.0
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
+BuildRequires:	gtk+-devel >= 1.2.0
+BuildRequires:	gnome-core-devel >= 1.2.0
+BuildRequires:	libtool
 Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
@@ -31,6 +33,7 @@ To ma³y monitor obci±¿enia sieci jako aplet do panelu GNOME.
 %build
 rm -f missing
 gettextize --copy --force
+libtoolize --copy --force
 aclocal -I macros
 autoconf
 automake -a -c
