@@ -7,6 +7,7 @@ License:	GPL
 Group:		X11/Applications/Networking
 Vendor:		Jan Oberländer <mindriot@gmx.net>
 Source0:	http://dl.sourceforge.net/netload-applet/%{name}-%{version}.tar.gz
+# Source0-md5:	7294ddb00d94edf0d557544418e87ade
 URL:		http://netload-applet.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
