@@ -1,0 +1,2 @@
+- _sysconfdir=/etc/X11/GNOME to place CORBA files in proper place
+- new %doc, release 2
