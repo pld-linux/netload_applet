@@ -1,0 +1,3 @@
+- rewrited but NYF because some GNOME packages which uses ORBit must be
+  fixed on first.
+  Based on spec file from tar ball.
