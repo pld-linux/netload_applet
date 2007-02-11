@@ -1,11 +1,10 @@
 Summary:	A nice looking network load monitor applet for GNOME
-Summary(pl.UTF-8):   Ładnie wyglądający monitor obciążenia sieci dla GNOME
+Summary(pl.UTF-8):	Ładnie wyglądający monitor obciążenia sieci dla GNOME
 Name:		netload_applet
 Version:	0.3.1
 Release:	2
 License:	GPL
 Group:		X11/Applications/Networking
-Vendor:		Jan Oberländer <mindriot@gmx.net>
 Source0:	http://dl.sourceforge.net/netload-applet/%{name}-%{version}.tar.gz
 # Source0-md5:	7294ddb00d94edf0d557544418e87ade
 URL:		http://netload-applet.sourceforge.net/
