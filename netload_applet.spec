@@ -10,7 +10,7 @@ Source0:	http://dl.sourceforge.net/netload-applet/%{name}-%{version}.tar.gz
 URL:		http://netload-applet.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gnome-core-devel >= 1.2.0
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRequires:	libtool
